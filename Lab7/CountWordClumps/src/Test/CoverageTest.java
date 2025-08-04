@@ -22,8 +22,12 @@ class CoverageTest {
 		return Stream.of(
 				//Arguments.of(null, 0)
 				//Arguments.of(new int[] {}, 0)
+				//Arguments.of(new int[] {1}, 0)
+				//Arguments.of(new int[] {1,1}, 1)
+				//Arguments.of(new int[] {0,0}, 1)
 				//Arguments.of(new int[] {1,2}, 0)
-				Arguments.of(new int[] {0,0,0}, 1)
+				//Arguments.of(new int[] {0,0,0}, 1)
+				Arguments.of(new int[] {4,3,3}, 1)
 				//Arguments.of(new int[] {1,1,0,2,2}, 2)
 		);
 	}
